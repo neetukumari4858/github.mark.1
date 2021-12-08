@@ -1,6 +1,6 @@
 var readlineSync = require('readline-sync');
 var userName = readlineSync.question('Enter your Name:-');
-var forWelcome = "Welcome"+" "+userName+" "+"do you know Neetu? ";
+var forWelcome = "Welcome"+" "+userName+" "+"do you know me? ";
 console.log(forWelcome);
 
 score=0;
